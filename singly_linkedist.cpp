@@ -80,4 +80,20 @@ public :
         delete current;
         return true;
     }
+    void traverse()
+    {
+        if(listempty())
+        {
+            cout << "\nlist kosong\n";
+        }
+        else
+        {
+            cout << "\nData di dalam list adalah;\n";
+            Node *currentNode =START;
+            while (currentNode != NULL)
+            {
+                
+            }
+        }
+    }
 };
