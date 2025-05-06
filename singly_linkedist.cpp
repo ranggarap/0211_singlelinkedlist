@@ -140,7 +140,14 @@ int main()
                         << "list kosong"<< endl;
                         break;
                     }
-                        
+                      cout <<endl<< "\nMasukan mahasiswa yang akan di hapus:";
+                      cin>>nim;
+                      if (mhs.delNode(nim)== false)
+                        cout << endl << "data tidak di temukan"<< endl;
+                        else
+                        cout << endl 
+                             << "data dengan nomor mahasiswa"<<nim
+                             << "berhasil di hapus"<< endl;
                 }
 
 
