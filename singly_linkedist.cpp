@@ -131,6 +131,19 @@ int main()
                     mhs.addNode();
                 }
                 break;
+
+                case  '2':
+                {
+                    if (mhs.listempty())
+                    {
+                        cout <<endl
+                        << "list kosong"<< endl;
+                        break;
+                    }
+                        
+                }
+
+
             }
 
 
