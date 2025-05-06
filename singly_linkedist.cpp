@@ -112,5 +112,14 @@ int main()
     int nim;
     char ch;
     while (1)
-    {}
+    { 
+        cout << endl
+            <<"Menu";
+        cout << endl
+            <<"1. menambahkan data ke dalam list"<< endl;
+        cout << "2.menghapus data dari dalam list" << endl;
+        cout << "3. menampilkan semua data dari list "<<endl;
+        
+
+    }
 }
