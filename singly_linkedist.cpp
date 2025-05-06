@@ -102,5 +102,15 @@ public :
                 
             }
         }
+
     }
 };
+
+int main()
+{
+    LinkedList mhs;
+    int nim;
+    char ch;
+    while (1)
+    {}
+}
