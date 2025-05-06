@@ -48,5 +48,17 @@ public :
         previous = current;
         current =current->next;
     }
+    nodeBaru->next =current;
+    previous->next =nodeBaru;
+    }
+    bool listempty()
+    {
+        return (START == NULL);
+    }
+    bool Search (int nim,Node **previous, Node **current)
+    {
+        *previous=START;
+        *current=START;
+        
     }
 };
