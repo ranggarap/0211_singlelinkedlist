@@ -119,7 +119,21 @@ int main()
             <<"1. menambahkan data ke dalam list"<< endl;
         cout << "2.menghapus data dari dalam list" << endl;
         cout << "3. menampilkan semua data dari list "<<endl;
-        
+        cout << "4.mencari data dalam list "<< endl;
+        cout << "5. keluar"<< endl;
+        cout << endl
+            << "masukan Pilihan (1-5):";
+            cin >> ch;
+            switch (ch)
+            {
+                case '1':
+                {
+                    mhs.addNode();
+                }
+                break;
+            }
+
+
 
     }
 }
